@@ -1,1 +1,18 @@
 # tetris_clone
+This project used provided backend code, and used it to create a user interface for a Tetris clone. It features a score algorithm, ability to pause the game, start a new game, adjust the size of the GUI, remap controls, change themes mid game, set difficulty and more. 
+
+## My Code
+[ScoreAlgorithm](ScoreAlgorithm.java) - A class used to keep score in the game based off current level, pieces removed, etc.
+[TetrisAction](TetrisAction.java) - Action listener / Change Listener for all of the different commands/controls etc.
+[View Package](.java) - All components in this class make up different components within the tetris GUI
+
+## Provided code
+[Model Package](.java) - All classes in this package makeup the provided backend
+[Block](Block.java) - object represnting a given tetris block
+[Board](Board.java) - object representing the back-end data of the tetris board
+[MovableTetrisPiece](MoveableTetrisPiece.java) - A collection of 4 blocks in the shape of a tetris piece
+[TetrisPiece](TetrisPiece.java) - A collection of 4 blocks in the shape of a tetris piece that is unmovable (is placed)
+[Point](Point.java)
+[Rotation](Rotation.java)
+
+## Images
